@@ -19,7 +19,7 @@ body {
     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.png);
     background-size: cover;
     background-position: center;
-    font-family: Lato;
+    font-family: 'Lato';
     font-weight: 300;
     position: relative;
     height: 100vh;
@@ -152,3 +152,31 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #7534cc; }
+
+/* CHALLENGES */
+
+#dice-1 {
+    top: 120px;
+}
+
+#dice-2 {
+    top: 250px;
+}
+
+.final-score {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 525px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: 300;
+    padding: 10px;
+    width: 170px;
+    font-size: 20px;
+    color: #555;
+}
+
+.final-score:focus { outline: none; }
+
